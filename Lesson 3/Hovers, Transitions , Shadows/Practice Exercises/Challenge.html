@@ -1,7 +1,13 @@
 <style>
   .back-to-amazon {
     color: rgb(0,113,133);
+    transition: color 0.15s;
   }
+
+  .back-to-amazon:hover {
+    color: rgb(170, 105, 8);
+  }
+
   .nike-black-running-shoes {
     color: black;
     font-size:large;
@@ -19,6 +25,16 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    margin-right: 6px;
+    transition: background-color 0.15s,
+    opacity 0.15s;  }
+
+  .add-to-cart-button:hover {
+    background-color: rgb(242, 198, 23);
+  }
+
+  .add-to-cart-button:active {
+    opacity: 0.6;
   }
   .buy-now-button {
     background-color: rgb(255,164,28);
@@ -28,7 +44,17 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    transition: background-color 0.15s,
+    opacity 0.15s;
     
+  }
+
+  .buy-now-button:hover {
+    background-color: rgb(238, 119, 15);
+  }
+
+  .buy-now-button:active {
+    opacity: 0.6;
   }
 
 </style>
