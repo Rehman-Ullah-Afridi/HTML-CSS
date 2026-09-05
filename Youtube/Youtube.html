@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Youtube.com Clone</title>
-        <style>
-            .thumbnail {
-                width: 300px;
-                display: block;
-            }
 
-            .search-bar {
-                font-size: 30px;
-                margin-left: 15px;
-            }
+<head>
+    <title>Youtube.com Clone</title>
+    <style>
+        .thumbnail {
+            width: 300px;
+            display: block;
+        }
 
-        </style>
-    </head>
-    <body>
-        <input type="text" placeholder="Type Here" class="search-bar">
+        .search-bar {
+            font-size: 30px;
+            margin-left: 15px;
+            display: block;
+        }
 
+        .div-element {
+            width: 300px;
+            display: inline-block;
+            margin-left: 10px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" placeholder="Type Here" class="search-bar">
+
+    <div class="div-element">
         <image src="Thumnails/thumbnail-1.webp" class="thumbnail">
 
             <p class="video-title">
@@ -30,6 +40,24 @@
 
             <p class="video-stats">
                 3&#x2E;4M views &#xb7; 6 months ago
-            </p>  
-    </body>
+            </p>
+    </div>
+
+        <div class="div-element">
+        <image src="Thumnails/thumbnail-2.webp" class="thumbnail">
+
+            <p class="video-title">
+                Try Not To Laugh Challenge #9
+            </p>
+
+            <p class="video-author">
+                Markiplier
+            </p>
+
+            <p class="video-stats">
+                19M views views &#xb7; 4 years ago
+            </p>
+    </div>
+</body>
+
 </html>
