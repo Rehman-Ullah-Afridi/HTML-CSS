@@ -1,0 +1,48 @@
+.text-box-1 {
+    font-size: 20px;
+    width: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border-color: silver;
+    border-style: solid;
+}
+.text-box-2 {
+    font-size: 20px;
+    width: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border-color: silver;
+    border-style: solid;
+}
+.text-box-3 {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 340px;
+    border-style: solid;
+    margin-bottom: 15px;
+    border-color: silver;
+}
+.button-signup {
+    font-size: 25px;
+    padding-left: 143px;
+    padding-right: 143px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(76, 105, 224);
+    font-weight: bold;
+}
