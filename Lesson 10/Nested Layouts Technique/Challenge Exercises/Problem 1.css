@@ -19,9 +19,9 @@
 
 }
 .paragraph1 {
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 0px;  
-    padding-left: 5px;
+    padding-left: 3px;
     color: rgb(112, 112, 112);
 }
 .button-add-friend {
@@ -36,4 +36,22 @@
     background-color: rgb(0, 112, 223);
     border: none;
     border-radius: 5px;
+}
+.profile-picture {
+    width: 30px;
+    height:30px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.profile-div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.paragraph-div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-paragraph-div {
+    margin-top: 5px;
 }
