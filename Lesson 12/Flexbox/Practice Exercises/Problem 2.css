@@ -1,0 +1,17 @@
+.Parent-div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.item1 {
+    background-color:deeppink;
+    width: 50px;
+}
+.item2 {
+    background-color:deepskyblue;
+    flex: 1;
+}
+.item3 {
+    background-color:brown;
+    width: 75px;
+}
