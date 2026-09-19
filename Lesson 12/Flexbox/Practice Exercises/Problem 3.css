@@ -1,0 +1,18 @@
+.Parent-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:chocolate;
+}
+.first-item {
+    background-color:aqua;
+}
+.second-item {
+    background-color:aquamarine;
+}
+.third-item {
+    background-color:blueviolet;
+}
+.fourth-item {
+    background-color:antiquewhite;
+}
