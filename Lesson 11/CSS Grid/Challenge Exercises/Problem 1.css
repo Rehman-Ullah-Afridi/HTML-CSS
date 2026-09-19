@@ -22,9 +22,10 @@
 
 }
 .paragraph1 {
+
+    color: rgb(112, 112, 112);
     margin-top: 0px;
     margin-bottom: 0px;  
-    color: rgb(112, 112, 112);
 }
 .button-add-friend {
     margin-top: 10px;
