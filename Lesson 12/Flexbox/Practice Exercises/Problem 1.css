@@ -1,0 +1,12 @@
+.parent-div {
+    display: flex;
+    flex-direction: row;
+}
+.first-item {
+    background-color: burlywood;
+    width: 200px;
+}
+.second-item {
+    background-color: crimson;
+    width: 75px;
+}
