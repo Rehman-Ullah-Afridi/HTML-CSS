@@ -1,0 +1,29 @@
+div {
+    font-family: Arial;
+}
+.container {
+    width: 400px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+}
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.notification {
+    background-color: rgb(79, 111, 255);
+    color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+}
