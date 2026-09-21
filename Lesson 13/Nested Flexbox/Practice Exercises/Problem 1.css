@@ -1,0 +1,20 @@
+.container {
+    display:flex;
+}
+.first-element {
+    height: 50px;
+    background-color: lightpink;
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-element {
+    height: 50px;
+    background-color: lightblue;
+    width:200px;
+}
+.item {
+    background-color: black;
+    color:white;
+}
