@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+}
+.first-element {
+    background-color: lightpink;
+    height: 70px;
+    width:100px;
+}
+.second-element {
+    background-color: lightblue;
+    height: 70px;
+    width: 200px;
+}
+.first-nested-div {
+    font-size: 20px;
+}
+.second-nested-div {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row2 {
+    background-color: black;
+    font-size: 20px;
+    color:white;
+}
