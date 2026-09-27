@@ -1,0 +1,56 @@
+body {
+    height:4000px;
+}
+div {
+    font-family: Arial;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.first-sidebar {
+    background-color:rgb(44, 43, 43);
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    width:85px;
+    padding-top: 20px;
+    padding-left:15px;
+}
+.image {
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+.second-sidebar {
+    background-color:rgb(66, 66, 66);
+    position:fixed;
+    left:100px;
+    top:0;
+    bottom:0;
+    width:300px;
+    padding-top:20px;
+    padding-left: 25px;
+    padding-right:25px;
+}
+.header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.info-word {
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+}
+.plus-sign {
+    color:rgb(190, 190, 190);
+    font-size: 30px;
+}
+.channel {
+    font-size: 20px;
+    color:rgb(190, 190, 190);
+    margin-bottom: 20px;
+}
