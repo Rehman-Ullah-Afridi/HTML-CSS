@@ -22,12 +22,12 @@
     align-items: center;
 }
 .hamburger-menu-icon {
-    height: 23px;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 .youtube-logos-icon {
-    height: 23px;
+    height: 20px;
 }
 .middle-section {
     display:flex;
@@ -35,18 +35,18 @@
     margin-left: 70px;
     margin-right: 35px;
     align-items: center;
-    max-width: 500px;
+    max-width: 470px;
 }
 .search-bar {
     flex: 1;
     height: 35px;
     border-radius:2px;
     border-width: 1px;
-    border-color: rgb(191, 191, 191);
+    border-color: rgb(210, 210, 210);
     border-style: solid;
-    padding-left: 10px;
+    padding-left: 12px;
     font-size: 16px;
-    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.05);
 }
 .search-bar::placeholder {
     font-family: Roboto,Arial;
@@ -61,7 +61,30 @@
     border-color: rgb(191, 191, 191);;
     border-style: solid;
     margin-left: -1px;
+    position:relative;
 }
+
+.search-button .tooltip {
+    position:absolute;
+    background-color:gray;
+    color:white;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:4px;
+    padding-bottom:4px;
+    border-radius:2px;
+    bottom:-40px;
+    opacity:0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    font-family: Roboto,Arial;
+    font-size: 12px;
+}
+
+.search-button:hover .tooltip {
+    opacity:1;
+}
+
 .search-icon {
     height: 25px;
     margin-top: 4px;
@@ -78,21 +101,21 @@
     margin-top: 4px;
 }
 .right-section {
-    width: 200px;
+    width: 185px;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 20px;
+    padding-right: 24px;
     flex-shrink: 0;
 }
 .upload-icon {
-    height: 28px;
+    height: 24px;
 }
 .youtube-apps-icon {
-    height: 28px;
+    height: 24px;
 }
 .notifications-icon {
-    height: 28px;
+    height: 24px;
 }
 .notifications-icon-container {
     position:relative;
@@ -100,18 +123,18 @@
 .notifications-count {
     position:absolute;
     top:-2px;
-    right:-5px;
+    right:-4px;
     background-color:rgb(200, 0, 0);
     color:white;
-    padding-left:6px;
-    padding-right:6px;
+    padding-left:5px;
+    padding-right:5px;
     padding-top:2px;
     padding-bottom:2px;
     border-radius: 10px;
     font-family: Roboto,Arial;
-    font-size: 13px;
+    font-size: 10px;
 }
 .my-channel-icon {
-    height: 28px;
-    border-radius: 20px;
+    height: 32px;
+    /* border-radius: 25px; */
 }
