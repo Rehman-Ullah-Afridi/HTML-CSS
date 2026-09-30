@@ -4,11 +4,11 @@
 
 .video-info-grid {
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: 48px 1fr;
 }
 
 .profile-image {
-    width: 40px;
+    width: 36px;
     border-radius: 30px;
 }
 
@@ -16,11 +16,12 @@
     margin-top: 0px;
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
+    line-height: 20px;
 }
 
 .thumbnail-row {
-    margin-bottom: 13px;
+    margin-bottom: 8px;
     position:relative;
 }
 
@@ -43,7 +44,7 @@
 .video-time {
     position:absolute;
     bottom:10px;
-    right:5px;
+    right:4px;
     background-color:black;
     color:white;
     padding-left:4px;
