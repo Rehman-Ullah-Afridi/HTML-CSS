@@ -19,6 +19,10 @@
     margin-bottom: 10px;
     line-height: 20px;
 }
+.video-title-link {
+    text-decoration: none;
+    color:black;
+}
 
 .thumbnail-row {
     margin-bottom: 8px;
