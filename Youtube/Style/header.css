@@ -105,16 +105,17 @@
 }
 
 .search-icon {
-    height: 25px;
+    height: 24px;
 }
 .voice-button {
     height: 39px;
-    border-radius: 20px;
+    width:39px;
+    border-radius: 30px;
     border:none;
     background-color: rgb(248, 248, 248);
 }
 .voice-icon {
-    height: 25px;
+    height: 24px;
 }
 .right-section {
     width: 185px;
