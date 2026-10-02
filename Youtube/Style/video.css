@@ -45,17 +45,28 @@
     column-gap: 16px;
     row-gap: 40px;
 }
+@media (max-width: 850px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:850.1px) and (max-width:1100px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1100.1px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 .video-time {
     position:absolute;
     bottom:10px;
     right:4px;
     background-color:black;
     color:white;
-    padding-left:4px;
-    padding-right:4px;
-    padding-top:4px;
-    padding-bottom:4px;
-    font-family: roboto,Arial;
+    padding:4px;
     font-size:12px;
     font-weight: 500;
     border-radius: 2px;
